@@ -4,105 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <style>
+      #container img {
+        -webkit-user-select: none; /* Safari */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
+        pointer-events: none; /* Vô hiệu hóa tương tác chuột */
+        -webkit-touch-callout: none; /* iOS Safari */
+      }
+    </style>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <div class="top">
-          <div class="left">
-            <img src="./img/logo-trang.png" alt="logo" />
-          </div>
-          <div class="right">
-            <form action="">
-              <div>
-                <input type="text" required />
-              </div>
-              <div>
-                <button>tìm kiếm</button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="bottom">
-          <ul>
-            <li><a href="">Trang chủ</a></li>
-            <li><a href="">Tuyển sinh</a></li>
-            <li><a href="">Chương trình đào tạo</a></li>
-            <li><a href="">Góc sinh viên</a></li>
-            <li><a href="">Tuyển dụng</a></li>
-          </ul>
-        </div>
-      </header>
-      <main>
-        <div class="main-left">
-          <h3>Sự kiện</h3>
-          <div class="su-kien">
-            <div class="su-kien-item">
-              <img src="./img/row4.png" alt="" />
-              <div class="main-content">
-                Tự hào 153 sinh viên FPoly Hà Nội xuất sắc của kỳ Summer 2022
-                ghi danh trên “Ngôi sao danh vọng” Golden Bee Award
-              </div>
-              <div class="sub-content">
-                Tối ngày 07/10/2022, Cao đẳng FPT Polytechnic Hà Nội đã tổ chức
-                Lễ tôn vinh “Ong vàng Poly”, tuyên dương 153 cá nhân và tập thể
-                có thành tích xuất sắc trong học tập cũng như hoạt động.
-              </div>
-              <div class="final">
-                <ul>
-                  <li>Chuỗi nhạc hội Happy Bee đến với cộng đồng sinh viên</li>
-                </ul>
-              </div>
-              <div></div>
-            </div>
-            <div class="su-kien-item">
-              <img src="./img/row4.png" alt="" />
-              <div class="main-content">
-                Tự hào 153 sinh viên FPoly Hà Nội xuất sắc của kỳ Summer 2022
-                ghi danh trên “Ngôi sao danh vọng” Golden Bee Award
-              </div>
-              <div class="sub-content">
-                Tối ngày 07/10/2022, Cao đẳng FPT Polytechnic Hà Nội đã tổ chức
-                Lễ tôn vinh “Ong vàng Poly”, tuyên dương 153 cá nhân và tập thể
-                có thành tích xuất sắc trong học tập cũng như hoạt động.
-              </div>
-              <div class="final">
-                <ul>
-                  <li>Chuỗi nhạc hội Happy Bee đến với cộng đồng sinh viên</li>
-                </ul>
-              </div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-        <div class="main-right">
-          <img src="./img/banner.png" alt="banner" />
-        </div>
-      </main>
-      <section>
-        <div class="title">
-          <h2>Đối tác</h2>
-        </div>
-        <div class="list-img">
-          <div>
-            <img src="./img/dt1.png" alt="" />
-          </div>
-          <div>
-            <img src="./img/dt2.png" alt="" />
-          </div>
-          <div>
-            <img src="./img/dt3.png" alt="" />
-          </div>
-          <div>
-            <img src="./img/dt4.png" alt="" />
-          </div>
-        </div>
-      </section>
-
-      <footer>
-        <h3>Lanbd2</h3>
-      </footer>
-    </div>
+    <div id="container"></div>
+    <script src="index.js"></script>
   </body>
 </html>
