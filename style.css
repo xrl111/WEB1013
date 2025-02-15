@@ -1,0 +1,160 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(255, 102, 0);
+  padding: 10px 20px;
+  margin-bottom: 5px;
+}
+form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+input {
+  height: 25px;
+}
+button {
+  background-color: rgb(32, 19, 101);
+  color: white;
+  padding: 5px;
+  border: 1px solid white;
+}
+.left img {
+  width: 100%;
+  height: 100%;
+}
+
+.bottom {
+  background-color: rgb(0, 87, 177);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.bottom ul li {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.su-kien {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.su-kien-item {
+  width: calc(100% / 2.5);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid grey;
+}
+
+.su-kien-item img {
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+.main-content {
+  color: rgb(173, 65, 3);
+  font-weight: bold;
+}
+
+.final ul li::before {
+  content: '🧡';
+  margin-right: 8px;
+}
+
+.final ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.final ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main-right img {
+  width: auto;
+  height: 90%;
+}
+
+.main-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: rgb(8, 58, 111);
+  font-weight: 500;
+}
+
+.list-img {
+  border: 1px solid grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.list-img div {
+  width: calc(100% / 4.5);
+}
+
+div img {
+  width: 100%;
+}
+
+section {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: rgb(255, 102, 0);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h3 {
+  color: white;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
