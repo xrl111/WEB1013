@@ -2,7 +2,7 @@ const a = document.getElementById('container');
 // Tạo phần tử img
 const img = document.createElement('img');
 // Thiết lập thuộc tính src và alt cho ảnh
-img.src = 'img.png';
+img.src = 'img.jpg';
 img.alt = 'Mô tả ảnh';
 
 // Thêm các biện pháp bảo vệ ảnh
